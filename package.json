@@ -1,0 +1,22 @@
+{
+    "name": "am335x-linuxGW-PI",
+    "version": "0.1.0",
+    "description": "Linux Gateway for PI based on am335x",
+    "author": "Nanchao Inc.",
+    "ruff": {
+        "session-format": {
+            "address": {
+                "type": "string",
+                "description": "designate IP address",
+                "required": true,
+                "visible": true
+            }
+        },
+        "dependencies": {
+            "rs485-uart2": "^0.1.0"
+        }
+    },
+    "engines": {
+        "ruff": ">=1.7.3 <2.0.0"
+    }
+}

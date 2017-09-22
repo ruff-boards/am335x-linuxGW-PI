@@ -1,0 +1,22 @@
+{
+    "name": "apps",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "data-parsing-engine": "*",
+            "data-integration": "*",
+            "data-upload": "*",
+            "easy-modbus": "*",
+            "rson": "*",
+            "s7": "*",
+            "s7-200-tcp": "*",
+            "mc": "*",
+            "bcnet-modbus-tcp": "*"
+        },
+        "version": 1,
+        "devDependencies": {}
+    }
+}
