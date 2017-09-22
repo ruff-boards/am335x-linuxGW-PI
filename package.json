@@ -1,6 +1,6 @@
 {
     "name": "am335x-linuxGW-PI",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Linux Gateway for PI based on am335x",
     "author": "Nanchao Inc.",
     "ruff": {
